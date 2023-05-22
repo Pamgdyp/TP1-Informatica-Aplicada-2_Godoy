@@ -24,6 +24,7 @@ function preload() {
 function setup() {
   createCanvas(350, 650);
   imageMode(CENTER);
+  frameRate(60);
 
     conjunto.push(new Formas(5, 170, 200));
     conjunto.push(new Formas(2, 330, 200));
