@@ -54,7 +54,7 @@ function draw() {
     conjunto[i].dibujar();
   }
   push();
-  tint(255, 50);
+  tint(255, 30);
   image(filtro,0,0);
   pop();
 }
